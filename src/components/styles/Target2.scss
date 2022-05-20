@@ -1,0 +1,72 @@
+@import '/src/styles/vars';
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.main-title h1 {
+    font-size: 50px;
+    color: var(--gray-tittle);
+}
+
+.main-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.logo-image {
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+
+.main-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+
+.main-text_paragraph p {
+    font-size: 30px;
+    color: var(--gray-text);
+    font-weight: normal;
+    text-align: justify;
+    line-height:1;
+}
+
+.moreInformation-button {
+    background-color: var(--yellow-component);
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    font-size: var(--md);
+    font-weight: var(--bold-text);
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+}
