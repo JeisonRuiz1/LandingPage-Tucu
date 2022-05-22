@@ -1,6 +1,6 @@
 import React from "react";
-import './styles/Target2.scss';
-const Target2 = ({ tittle, content, urlImage, textButton }) => {
+import './styles/InformationTarget.scss';
+const InformationTarget = ({ tittle, content, urlImage, textButton }) => {
     return (
         <div className="main">
             <div className="main-title">
@@ -21,4 +21,4 @@ const Target2 = ({ tittle, content, urlImage, textButton }) => {
         </div>
     )
 }
-export default Target2;
+export default InformationTarget;

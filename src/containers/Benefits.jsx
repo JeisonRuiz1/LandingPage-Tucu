@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/Benefits.scss';
 import serviceImage from '../icons/logoTucu.svg';
+import ServiceTarget from "../components/ServiceTarget";
 
 const Benefits = () => {
     return (
@@ -9,30 +10,25 @@ const Benefits = () => {
                 <h1>Beneficios</h1>
             </div>
             <div className="container-targets">
-                <div className="container-targets__target">
-                    <img src={serviceImage} alt="" />
-                    <h3>Entregas</h3>
-                    <p>Vive una experiencia de compra mucho mas agil y
-                        eficaz, recibiendo tus productos el mismo dia que los
-                        solicitas con un servicio inmediato y de calidad.
-                    </p>
-                </div>
-                <div className="container-targets__target">
-                    <img src={serviceImage} alt="" />
-                    <h3>Gestion</h3>
-                    <p>Vive una experiencia de compra mucho mas agil y
-                        eficaz, recibiendo tus productos el mismo dia que los
-                        solicitas con un servicio inmediato y de calidad.
-                    </p>
-                </div>
-                <div className="container-targets__target">
-                    <img src={serviceImage} alt="" />
-                    <h3>Software logistico</h3>
-                    <p>Vive una experiencia de compra mucho mas agil y
-                        eficaz, recibiendo tus productos el mismo dia que los
-                        solicitas con un servicio inmediato y de calidad.
-                    </p>
-                </div>
+
+                <ServiceTarget
+                    title={"Entregas"}
+                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    URLImage={"https://img.icons8.com/color/344/delivery--v1.png"}
+                />
+
+                <ServiceTarget
+                    title={"Gestion"}
+                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    URLImage={"https://img.icons8.com/color/344/delivery--v1.png"}
+                />
+
+                <ServiceTarget
+                    title={"Software logistico"}
+                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    URLImage={"https://img.icons8.com/color/344/delivery--v1.png"}
+                />
+                
             </div>
         </div >
     )
