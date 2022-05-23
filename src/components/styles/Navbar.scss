@@ -5,13 +5,13 @@ nav {
     height: 5rem;
     position: fixed;
     z-index: 1000;
+    width: 100%;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 0 20rem;
-    width: max-content;
     align-items: center;
     border-bottom: none;
 }
@@ -22,7 +22,7 @@ nav {
     color: var(--yellow-component);
     font-weight: var(--bolt-text);
     border: none;
-    font-size: var(--sm);
+    font-size: 2rem;
     border-radius: 3rem;
     height: 3rem;
     width: 13rem;
@@ -56,7 +56,7 @@ nav {
 }
 
 .navbar-center a{
-    font-size: var(--md);
+    font-size: var(--sm);
 }
 
 .navbar-center ul li a,

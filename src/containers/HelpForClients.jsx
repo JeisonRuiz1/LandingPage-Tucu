@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/HelpForClients.scss';
+//import './styles/HelpForClients.scss';
 
 
 const HelpForClients = () => {
@@ -10,15 +10,15 @@ const HelpForClients = () => {
             </div>
             <div className="container-targets">
                 <div className="container-targets__target">
-                    <img src={serviceImage} alt=""/>
+                    <img src="" alt=""/>
                         <h3>Same day delivery</h3>
                 </div>
                 <div className="container-targets__target">
-                    <img src={serviceImage} alt=""/>
+                    <img src="" alt=""/>
                         <h3>Fast delivery</h3>
                 </div>
                 <div className="container-targets__target">
-                    <img src={serviceImage} alt=""/>
+                    <img src="" alt=""/>
                         <h3>Software logistico</h3>
                 </div>
             </div>
