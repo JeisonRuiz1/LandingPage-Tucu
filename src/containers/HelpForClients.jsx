@@ -1,29 +1,23 @@
 import React from "react";
-//import './styles/HelpForClients.scss';
+import ButtonComp from "../components/ButtonComp";
+import TypeClient from "../components/TypeClient";
+import './styles/HelpForClients.scss';
 
 
-const HelpForClients = () => {
+const HelpForClients = ({tittle, textButton}) => {
     return (
         <div className="container">
-            <div className="container-tittle">
-                <h1>Nuestros servicios</h1>
+            <div className="container-title">
+                <h1>{tittle}</h1>
             </div>
             <div className="container-targets">
-                <div className="container-targets__target">
-                    <img src="" alt=""/>
-                        <h3>Same day delivery</h3>
-                </div>
-                <div className="container-targets__target">
-                    <img src="" alt=""/>
-                        <h3>Fast delivery</h3>
-                </div>
-                <div className="container-targets__target">
-                    <img src="" alt=""/>
-                        <h3>Software logistico</h3>
-                </div>
+                <TypeClient title={"Start-Ups de domicilios"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
+                <TypeClient title={"Resaurantes"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
+                <TypeClient title={"Última milla"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
+                <TypeClient title={"Bodegas ocultas"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
             </div>
-            <div>
-                <button type="button" className="primary-button information-button">Mas servicios</button>
+            <div className="container-button">
+                <ButtonComp textButton={textButton}/>
             </div>
         </div >
     )

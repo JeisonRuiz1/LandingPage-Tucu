@@ -1,6 +1,5 @@
 import React from "react";
-import '../styles/Benefits.scss';
-import serviceImage from '../icons/logoTucu.svg';
+import './styles/Benefits.scss';
 import ServiceTarget from "../components/ServiceTarget";
 
 const Benefits = () => {

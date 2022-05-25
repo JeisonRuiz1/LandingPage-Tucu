@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonComp from "./ButtonComp";
 import './styles/InformationTarget.scss';
 const InformationTarget = ({ tittle, content, urlImage, textButton }) => {
     return (
@@ -11,7 +12,7 @@ const InformationTarget = ({ tittle, content, urlImage, textButton }) => {
                     <div className="main-text_paragraph">
                         <p>{content}</p>
                     </div>
-                    <button type="button" className="btn btn-warning moreInformation-button">{textButton}</button>
+                    <ButtonComp textButton={textButton}/>
                 </div>
                 <div className="main-image">
                     <img src={urlImage} alt="logo" className="logo-image" />

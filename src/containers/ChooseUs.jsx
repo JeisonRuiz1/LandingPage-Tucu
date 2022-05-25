@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/ChooseUs.scss';
+import './styles/ChooseUs.scss';
 import chooseUsImage from '../icons/logoTucu.png';
 
 const ChooseUs = () => {

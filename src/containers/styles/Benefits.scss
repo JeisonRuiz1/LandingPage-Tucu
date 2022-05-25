@@ -1,3 +1,5 @@
+@import '/src/styles/vars';
+
 
 .container{
     display: flex;
@@ -20,6 +22,12 @@
     margin: 0px 30px;
     padding: 0px 10px;
     width: 25%;
+}
+
+.container-tittle h1{
+    font-size: var(--lg);
+    color: var(--gray-tittle);
+    padding-bottom: 8rem;
 }
 
 .container-targets__target p{

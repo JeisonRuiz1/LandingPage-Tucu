@@ -1,12 +1,16 @@
 @import '/src/styles/vars';
 
+.container{
+    margin: 0 4rem;
+}
 .container-targets__target{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0rem 2rem;
-    padding: 0rem 3rem;
-    width: 22rem;
+    margin-left: 20rem;
+    padding-left: 20rem;
+    justify-content: stretch;
+    width: 1rem;
 }
 
 .container-targets__target-text{
@@ -20,17 +24,17 @@
     color: var(--gray-tittle);
     text-align: justify;
     font-size: var(--md);
+    padding-top: 4rem;
 }
 
 .container-targets__target p{
     color: var(--gray-text);
     font-size: var(--sm);
+    padding-top: 4rem;
     text-align: justify;
 }
 
 .image-target{
-    display: flex;
-    justify-content: flex-end;
     width: 22rem;
     height: 22rem;
     border-radius: 2rem;

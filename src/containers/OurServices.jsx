@@ -1,8 +1,8 @@
 import React from "react";
-import '../styles/OurServices.scss';
+import './styles/OurServices.scss';
 import serviceImage from '@icons/logoTucu.png';
 import ServiceTarget from "../components/ServiceTarget";
-
+import ButtonComp from '../components/ButtonComp';
 
 const OurServices = () => {
     return (
@@ -19,16 +19,16 @@ const OurServices = () => {
                 <ServiceTarget
                     title={"Fast delivery"}
                     text={"Vive una experiencia de compra mucho mas agil."}
-                    URLImage={"https://img.myloview.es/fotomurales/fast-delivery-logo-design-template-vector-illustration-400-242200578.jpg"}
+                    URLImage={"https://supplychaingamechanger.com/wp-content/uploads/2021/09/car-438029_1280.webp"}
                 />
                 <ServiceTarget
                     title={"Software logistico"}
                     text={"Vive una experiencia de compra mucho mas agil y eficaz.Vive una experiencia de compra mucho mas agil y eficaz."}
-                    URLImage={"https://asersa.com/wp-content/uploads/2016/06/Meme_3.png"}
+                    URLImage={"https://supplychaingamechanger.com/wp-content/uploads/2021/09/car-438029_1280.webp"}
                 />
             </div>
             <div>
-                <button type="button" className="primary-button information-button">Mas servicios</button>
+                <ButtonComp textButton={"Mas servicios"}/>;
             </div>
         </div >
     )

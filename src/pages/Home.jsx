@@ -19,7 +19,9 @@ const Home = () => {
         textButton={"Quiero saber más"}
          />
         <Benefits/>
-        <HelpForClients/>
+
+        <HelpForClients tittle={"Clientes que podemos ayudar"} textButton={"Contáctanos"} />
+        
     </div>
     )
 }
