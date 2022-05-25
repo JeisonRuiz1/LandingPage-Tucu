@@ -1,0 +1,15 @@
+@import '/src/styles/vars';
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.media-targets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

@@ -5,6 +5,7 @@ import InformationComponent from "../components/InformationComponent";
 import Benefits from "../containers/Benefits";
 import HelpForClients from "../containers/HelpForClients";
 import AboutUs from "../containers/AboutUs";
+import Media from "../containers/Media";
 
 
 const Home = () => {
@@ -19,9 +20,8 @@ const Home = () => {
         textButton={"Quiero saber más"}
          />
         <Benefits/>
-
         <HelpForClients tittle={"Clientes que podemos ayudar"} textButton={"Contáctanos"} />
-        
+        <Media/>
     </div>
     )
 }
