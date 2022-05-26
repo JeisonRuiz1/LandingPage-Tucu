@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    padding: 8rem 22rem;
+    width: 100%;
 }
 
 .media-targets{
@@ -12,4 +13,10 @@
     justify-content: center;
     flex-wrap: wrap;
 
+}
+
+.media-title{
+    font-size: var(--sm);
+    color: var(--gray-tittle);
+    font-weight: bold;
 }

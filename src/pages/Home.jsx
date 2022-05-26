@@ -22,6 +22,11 @@ const Home = () => {
         <Benefits/>
         <HelpForClients tittle={"Clientes que podemos ayudar"} textButton={"Contáctanos"} />
         <Media/>
+        <InformationComponent
+            tittle={"Quiero ser repartidor TUCU"}
+            content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel consequatur tempore itaque, voluptatum veritatis nam id, dolor provident vitae eum corporis repellat perspiciatis nostrum doloremque, sunt perferendis! Ipsam, ducimus?"}
+            urlImage={"https://imagenes.elpais.com/resizer/foHCFTsj0w2hTr1UKNm8daBbkCM=/414x0/filters:focal(2065x1485:2075x1495)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/KTPTNNRTFFAE7NNA73UWLWF26Y.jpg"}
+            textButton={"Me interesa"}/>
     </div>
     )
 }
