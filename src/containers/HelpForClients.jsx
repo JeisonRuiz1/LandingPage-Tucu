@@ -11,10 +11,10 @@ const HelpForClients = ({tittle, textButton}) => {
                 <h1>{tittle}</h1>
             </div>
             <div className="container-targets">
-                <TypeClient title={"Start-Ups de domicilios"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
-                <TypeClient title={"Resaurantes"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
-                <TypeClient title={"Última milla"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
-                <TypeClient title={"Bodegas ocultas"} URLImage="https://play-lh.googleusercontent.com/vRLWGhlYqVLxi6OCaFp2TVoma_RxvVpSojLMdymje2JSfKoK7ZJqNsyM_SjMVGkzB6w"/>
+                <TypeClient title={"Start-Ups de domicilios"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
+                <TypeClient title={"Resaurantes"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
+                <TypeClient title={"Última milla"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
+                <TypeClient title={"Bodegas ocultas"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
             </div>
             <div className="container-button">
                 <ButtonComp textButton={textButton}/>

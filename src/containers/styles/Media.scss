@@ -1,11 +1,13 @@
 @import '/src/styles/vars';
 
 .media{
+
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 8rem 22rem;
     width: 100%;
+
 }
 
 .media-targets{
@@ -14,6 +16,7 @@
     flex-wrap: wrap;
 
 }
+
 
 .media-title{
     font-size: var(--sm);
