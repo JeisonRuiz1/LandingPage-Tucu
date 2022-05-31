@@ -7,6 +7,7 @@ import AboutUs from "../containers/AboutUs";
 import Media from "../containers/Media";
 import AmountServices from "../containers/AmountServices";
 import Investors from "../containers/Investors";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -35,6 +36,8 @@ const Home = () => {
                 content={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur assumenda, dolore nemo animi, voluptatum aliquam a blanditiis dolorem voluptatibus numquam possimus, sapiente labore accusantium vel. Itaque id ex odit dolores."}
                 urlImage={"https://static.vecteezy.com/system/resources/previews/005/602/784/large_2x/chart-and-graph-color-icons-set-horizontal-and-vertical-histogram-with-interest-rates-function-curve-venn-diagram-with-letter-indexes-trigonometry-study-business-isolated-illustrations-vector.jpg"}
                 textButton={"Quiero saber más"} />
+            
+            <Footer/>
         </div>
     )
 }

@@ -1,15 +1,15 @@
 import React from 'react';
 import TypeClient from "../components/TypeClient";
-import './styles/HelpForClients.scss';
+import './styles/AmountServices.scss';
 
 
 const AmountServices = ({title}) =>{
     return(
-        <div className="container">
-            <div className="container-title">
+        <div className="amount">
+            <div className="amount-title">
                 <h1>{title}</h1>
             </div>
-            <div className="container-targets">
+            <div className="amount-targets">
                 <TypeClient title={"Empleos"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png  "/>
                 <TypeClient title={"Entregas"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png"/>
                 <TypeClient title={"Afiliados"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png"/>
