@@ -1,40 +1,23 @@
 @import '/src/styles/vars';
 
 
-.container{
+.our-service{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container-targets{
+.our-service-targets{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.container-targets__target{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px 30px;
-    padding: 0px 10px;
-    width: 25%;
-}
 
-.container-tittle h1{
+.our-service-tittle h1{
     font-size: var(--lg);
     color: var(--gray-tittle);
-    padding-bottom: 8rem;
 }
 
-.container-targets__target p{
-    text-align: justify;
-}
-
-.container-targets__target img{
-    width: 300px;
-    height: 400;
-    border-radius: 20px;
-}
+    

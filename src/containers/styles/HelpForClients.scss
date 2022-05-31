@@ -1,6 +1,19 @@
 @import '/src/styles/vars';
 
-.container-title{
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-targets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.help-title{
     padding-top: 8rem;
     padding-bottom: 6rem;
     color: var(--gray-tittle);

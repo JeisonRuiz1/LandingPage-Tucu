@@ -1,31 +1,31 @@
 @import '/src/styles/vars';
 
-.main {
+.information {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 15rem 0rem;
 }
 
-.main-content {
+.information-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.main-title {
+.information-title {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 1rem;
 }
 
-.main-title h1 {
+.information-title h1 {
     font-size: var(--lg);
     color: var(--gray-tittle);
 }
 
-.logo-image {
+.information-image {
     margin-top: 5rem;
     border-radius: 2.5rem;
     height: 50rem;
@@ -34,19 +34,19 @@
 }
 
 
-.main-text {
+.information-text {
     display: flex;
     align-items: center;
     padding-right: 10rem;
     justify-content: center;
     flex-direction: column;
 
-    width: 70rem;
+    width: 40%;
 }
 
 
 
-.main-text_paragraph p {
+.information-text_paragraph p {
     font-size: var(--sm);
     color: var(--gray-text);
     font-weight: normal;

@@ -1,41 +1,38 @@
 @import '/src/styles/vars';
 
-.container{
-    margin: 0 4rem;
+.service{
+    margin: 1rem 4rem;
 }
-.container-targets__target{
+
+.service-targets__target{   
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20rem;
-    padding-left: 20rem;
-    justify-content: stretch;
-    width: 1rem;
+    width: 35rem;
 }
 
-.container-targets__target-text{
+.service-targets__target-text{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30rem;
 }
 
-.container-targets__target h2{
+.service-targets__target h2{
     color: var(--gray-tittle);
-    text-align: justify;
     font-size: var(--md);
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
-.container-targets__target p{
+.service-targets__target p{
     color: var(--gray-text);
     font-size: var(--sm);
     padding-top: 4rem;
     text-align: justify;
 }
 
-.image-target{
+.service-image{
     width: 22rem;
-    height: 22rem;
+    height: 26rem;
     border-radius: 2rem;
 }

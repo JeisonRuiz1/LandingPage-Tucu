@@ -4,11 +4,11 @@ import ServiceTarget from "../components/ServiceTarget";
 
 const Benefits = () => {
     return (
-        <div className="container">
-            <div className="container-tittle">
+        <div className="benefit">
+            <div className="benefit-tittle">
                 <h1>Beneficios</h1>
             </div>
-            <div className="container-targets">
+            <div className="benefit-targets">
 
                 <ServiceTarget
                     title={"Entregas"}

@@ -3,19 +3,19 @@ import ButtonComp from "./ButtonComp";
 import './styles/InformationTarget.scss';
 const InformationTarget = ({ tittle, content, urlImage, textButton }) => {
     return (
-        <div className="main">
-            <div className="main-title">
+        <div className="information">
+            <div className="information-title">
                 <h1>{tittle}</h1>
             </div>
-            <div className="main-content">
-                <div className="main-text">
-                    <div className="main-text_paragraph">
+            <div className="information-content">
+                <div className="information-text">
+                    <div className="information-text_paragraph">
                         <p>{content}</p>
                     </div>
                     <ButtonComp textButton={textButton}/>
                 </div>
-                <div className="main-image">
-                    <img src={urlImage} alt="logo" className="logo-image" />
+                <div className="information-image">
+                    <img src={urlImage} alt="logo" className="information-image" />
                 </div>
             </div>
 
