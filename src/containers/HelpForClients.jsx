@@ -2,6 +2,10 @@ import React from "react";
 import ButtonComp from "../components/ButtonComp";
 import TypeClient from "../components/TypeClient";
 import './styles/HelpForClients.scss';
+import startUpImg from '../icons/START UPS.png';
+import ultimamMillaImg from '../icons/ULTIMA MILLA.png';
+import bodegasImg from '../icons/BODEGAS OCULTAS.png';
+import restaurantesImg from '../icons/RESTAURANTES.png';
 
 
 const HelpForClients = ({tittle, textButton}) => {
@@ -11,10 +15,10 @@ const HelpForClients = ({tittle, textButton}) => {
                 <h1>{tittle}</h1>
             </div>
             <div className="help-targets">
-                <TypeClient title={"Start-Ups de domicilios"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
-                <TypeClient title={"Resaurantes"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
-                <TypeClient title={"Última milla"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
-                <TypeClient title={"Bodegas ocultas"} URLImage="https://www.unicentrocucuta.com/wp-content/uploads/2016/02/logo-frisby.png"/>
+                <TypeClient title={"Start-Ups de domicilios"} URLImage={startUpImg}/>
+                <TypeClient title={"Resaurantes"} URLImage={restaurantesImg}/>
+                <TypeClient title={"Última milla"} URLImage={ultimamMillaImg}/>
+                <TypeClient title={"Bodegas ocultas"} URLImage={bodegasImg}/>
             </div>
             
             <div className="help-button">

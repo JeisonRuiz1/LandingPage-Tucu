@@ -2,9 +2,9 @@ import React from "react";
 import './styles/OurServices.scss';
 import ServiceTarget from "../components/ServiceTarget";
 import ButtonComp from '../components/ButtonComp';
-import fastDeliveryImage from '../icons/fastdelivery.png';
-import sameDayImage from '../icons/sameDay.png';
-import sfLogisticoImage from '../icons/sflogistico.png';
+import fastDeliveryImage from '../icons/FASTA DELIVERY.png';
+import sameDayImage from '../icons/SAME DAY DELIVERY.png';
+import sfLogisticoImage from '../icons/SOFTWARELOGISTICO.png';
 
 const OurServices = () => {
     return (

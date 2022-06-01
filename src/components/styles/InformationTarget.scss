@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .information-title {
@@ -26,9 +27,9 @@
 }
 
 .information-image {
-    margin-top: 5rem;
     border-radius: 2.5rem;
-    height: 50rem;
+    padding-top: 3rem;
+    height: 40rem;
     width: 40rem;
     margin-left: 3rem;
 }
@@ -37,6 +38,7 @@
 .information-text {
     display: flex;
     align-items: center;
+    padding-top: 5rem;
     padding-right: 5rem;
     justify-content: center;
     flex-direction: column;
