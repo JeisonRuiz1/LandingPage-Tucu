@@ -20,3 +20,13 @@
     color: var(--gray-tittle);
     padding-bottom: 8rem;
 }
+
+
+@media (max-width: 1250px) {
+
+    .benefit-targets{
+        flex-direction: column;
+    }
+
+}
+    

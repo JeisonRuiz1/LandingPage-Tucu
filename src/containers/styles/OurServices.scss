@@ -20,4 +20,11 @@
     color: var(--gray-tittle);
 }
 
+
+@media (max-width: 1250px) {
+  
+    .our-service-targets{
+        flex-direction: column;
+    }
+}
     

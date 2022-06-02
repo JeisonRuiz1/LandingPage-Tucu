@@ -38,6 +38,7 @@
     font-size: var(--lg);
     color: var(--gray-tittle);
     padding-bottom: 8rem;
+    text-align: center;
 }
 
 .about-text p {
@@ -58,4 +59,16 @@
     font-weight: bold;
     width: 20rem;
     cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    .about-image{
+        display: none;
+    }
+
+    .about-text {
+        width: 100%;
+        margin-top: 5% 2%;
+    }
+
 }
