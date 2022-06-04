@@ -17,17 +17,17 @@ const OurServices = () => {
             <div className="our-service-targets">
                 <ServiceTarget
                     title={"Same day delivery"}
-                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    text={"Recogemos los productos almacenados en tus bodegas y entregamos a tus clientes el mismo día."}
                     URLImage={sameDayImage}/>
 
                 <ServiceTarget
                     title={"Fast delivery"}
-                    text={"Vive una experiencia de compra mucho mas agil."}
+                    text={"Recogemos los productos en tu establecimiento y los entregamos en la puerta del cliente en menor tiempo posible."}
                     URLImage={fastDeliveryImage}/>
 
                 <ServiceTarget
                     title={"Software logistico"}
-                    text={"Vive una experiencia de compra mucho mas agil y eficaz.Vive una experiencia de compra mucho mas agil y eficaz."}
+                    text={"Las marcas que usan nuestro servicio cuentan con un software el cual les permite solicitar de manera muy sencilla un domicilio."}
                     URLImage={sfLogisticoImage}/>
 
             </div>

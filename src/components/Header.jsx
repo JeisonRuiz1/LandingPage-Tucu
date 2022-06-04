@@ -1,11 +1,17 @@
 import React from "react";
 import './styles/Navbar.scss';
 import logo from '@icons/logoTucu.png';
+import buttonMenu from '@icons/nav-menu-icon.png';
 
 const Header = () => {
     return (
         <nav className="navbar navbar-fixed-top">
 
+            <div className="navbar-button-menu">
+                <a href="#">
+                    <img src={buttonMenu} alt="" />
+                </a>
+            </div>
             <div className="navbar-left">
                 <img src={logo} alt="logo" className="logo-img" />
 

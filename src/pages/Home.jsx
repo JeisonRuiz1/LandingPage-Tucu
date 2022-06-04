@@ -25,17 +25,17 @@ const Home = () => {
             />
             <Benefits />
             <HelpForClients tittle={"Clientes que podemos ayudar"} textButton={"Contáctanos"} />
-            <Media />
+            {/* <Media /> */}
             <InformationComponent
                 tittle={"Quiero ser repartidor TUCU"}
-                content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel consequatur tempore itaque, voluptatum veritatis nam id, dolor provident vitae eum corporis repellat perspiciatis nostrum doloremque, sunt perferendis! Ipsam, ducimus?"}
+                content={"Trabaja con nosotros y obtén TODOS los beneficios de un trabajo formal LEGAL. Puedes generar ingresos extra con un contrato de tiempo incompleto, pero si buscas trabajo de tiempo completo también eres bienvenid@."}
                 urlImage={repartidorIMG}
                 textButton={"Me interesa"} />
             <AmountServices title={"Cifras"} />
-            <Investors title={"Nuestros inversionistas"} />
+            {   /* <Investors title={"Nuestros inversionistas"} /> */}
             <InformationComponent
                 tittle={"Conoce nuestras tarifas"}
-                content={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur assumenda, dolore nemo animi, voluptatum aliquam a blanditiis dolorem voluptatibus numquam possimus, sapiente labore accusantium vel. Itaque id ex odit dolores."}
+                content={"Para TUCU es importante conocer el número aproximado de entregas que realiza tu marca en días y horas de alta y baja demanda, con el fin de tener el personal necesario disponible para hacer determinadas entregas. Al realizar una alianza comercial con TUCU, tu marca contará con cobertura del volumen que tu marca necesita. ¡Contáctenos! y conoce los precios de tu ciudad."}
                 urlImage={tarifasIMG}
                 textButton={"Quiero saber más"} />
             

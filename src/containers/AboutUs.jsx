@@ -11,13 +11,17 @@ const AboutUs = () => {
                     <h1>¿Quienes somos?</h1>
                 </div>
                 <div className="about-text_paragraph">
-                    <p>Somos una startup que brinda soluciones tecnologicas en logistica de ultima milla, cambiando el
-                        concepto de delivery en LATAM para empresas y comercios locales.</p>
+                    <p>En TUCU ofrecemos  soluciones integrales en logística de última milla o delivery. <br/> <br/>
+
+                        Estamos comprometidos en el mejoramiento de la calidad de las entregas que se hacen en LATAM. <br/> <br/>
+
+                        Buscamos impactar positivamente la experiencia de nuestros aliados, clientes finales y los repartidores, bajo la premisa de trabajo digno, respeto, calidad y cumplimiento.
+                    </p>
                 </div>
                 <ButtonComp textButton={"¡Contactanos!"} />
             </div>
             <div className="about-image">
-                <img src={aboutUsImage} alt="logo" className="logo"/>
+                <img src={aboutUsImage} alt="logo" className="logo" />
             </div>
         </div>
     )

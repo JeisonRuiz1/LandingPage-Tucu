@@ -15,19 +15,19 @@ const Benefits = () => {
 
                 <ServiceTarget
                     title={"Entregas"}
-                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    text={"Entregas en el tiempo que tu y tu cliente lo requieren."}
                     URLImage={entregasIMG}
                 />
 
                 <ServiceTarget
                     title={"Gestion"}
-                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    text={"Tú eres experto en lo que haces, nosotros en que tus paquetes lleguen a tiempo a las manos de tus clientes."}
                     URLImage={gestionIMG}
                 />
 
                 <ServiceTarget
                     title={"Software logistico"}
-                    text={"Vive una experiencia de compra mucho mas agil y eficaz, recibiendo tus productos el mismo dia que los solicitas con un servicio inmediato y de calidad."}
+                    text={"Software Logístico que permite que tus clientes conozcan la ubicación de sus paquetes durtante el proceso de entrega."}
                     URLImage={softwareIMG}
                 />
                 
