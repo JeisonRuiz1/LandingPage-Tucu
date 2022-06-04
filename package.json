@@ -24,13 +24,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "webpack": "^5.72.1",
-    "webpack-dev-server": "^4.9.0"
+    "webpack-dev-server": "^4.9.0",
+    "homepage": "https://jeisonruiz1.github.io/LandingPage-Tucu/"
   },
   "scripts": {
     "start": "webpack serve --open",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build -r https://jeisonruiz1.github.io/LandingPage-Tucu/"
   },
   "eslintConfig": {
     "extends": [
