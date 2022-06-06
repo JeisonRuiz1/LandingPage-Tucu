@@ -1,7 +1,9 @@
 import React from 'react';
 import TypeClient from "../components/TypeClient";
 import './styles/AmountServices.scss';
-
+import empleosIcon from '@icons/cifras-empleos.png';
+import entregasIcon from '@icons/cifras-entregas.png';
+import aliadosIcon from '@icons/cifras-aliados.png';
 
 const AmountServices = ({title}) =>{
     return(
@@ -10,10 +12,10 @@ const AmountServices = ({title}) =>{
                 <h1>{title}</h1>
             </div>
             <div className="amount-targets">
-                <TypeClient title={"Empleos"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png  "/>
-                <TypeClient title={"Entregas"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png"/>
-                <TypeClient title={"Afiliados"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png"/>
-                <TypeClient title={"Integraciones"} URLImage="https://www.mubis.es/media/users/7708/50768/ding-ding-ding-100-ediciones-original.png"/>
+                <TypeClient title={"Empleos"} URLImage={empleosIcon}/>
+                <TypeClient title={"Entregas"} URLImage={entregasIcon}/>
+                <TypeClient title={"Afiliados"} URLImage={aliadosIcon}/>
+                <TypeClient title={"Integraciones"} URLImage={empleosIcon}/>
             </div>
         </div >
     )
