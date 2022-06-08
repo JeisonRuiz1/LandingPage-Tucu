@@ -34,6 +34,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build -r https://jeisonruiz1.github.io/LandingPage-Tucu/"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
