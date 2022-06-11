@@ -6,9 +6,10 @@ import HelpForClients from "../containers/HelpForClients";
 import AboutUs from "../containers/AboutUs";
 import AmountServices from "../containers/AmountServices";
 import Footer from "../components/Footer";
-import eligenIMG from '../icons/eligenIMG.PNG';
-import repartidorIMG from '../icons/repartidorIMG.PNG';
+import eligenIMG from '../icons/eligenIMG.png';
+import repartidorIMG from '../icons/repartidorIMG.png';
 import tarifasIMG from '../icons/tarifasIMG.png';
+import Contact from "../components/Contact";
 
 const Home = () => {
     return (
@@ -34,7 +35,7 @@ const Home = () => {
                 content={"Para TUCU es importante conocer el número aproximado de entregas que realiza tu marca en días y horas de alta y baja demanda, con el fin de tener el personal necesario disponible para hacer determinadas entregas. Al realizar una alianza comercial con TUCU, tu marca contará con cobertura del volumen que tu marca necesita. ¡Contáctenos! y conoce los precios de tu ciudad."}
                 urlImage={tarifasIMG}
                 textButton={"Quiero saber más"} />
-            
+            <Contact />
             <Footer/>
         </div>
     )

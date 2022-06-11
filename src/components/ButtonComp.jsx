@@ -8,6 +8,3 @@ const ButtonComp = ({ textButton }) => {
 }
 
 export default ButtonComp;
-
-
-
