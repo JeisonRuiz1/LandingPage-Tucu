@@ -1,0 +1,71 @@
+@import '/src/styles/vars';
+
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-component{
+    width: 80%;
+    border: 0.5rem solid white;
+    border-radius: 4rem;
+    margin-bottom: 4rem;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-tittle h1{
+    text-align: center;
+    font-size: var(--lg);
+    color: var(--gray-tittle);
+}
+
+.contact-content_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+}
+
+.contact-content_info h2{
+    color: var(--gray-tittle);
+    font-size: var(--md);
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.contact-content_info p{
+    color: var(--gray-text);
+    padding-top: 3rem;
+    text-align: justify;
+    width: 60rem;
+    font-size: var(--sm);
+}
+
+.contact-content_form{
+    padding-top: 3rem;
+}
+
+.contact-content_form h2{
+    color: var(--gray-tittle);
+    font-size: var(--md);
+    text-align: center;    
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    color: var(--gray-text);
+    font-size: var(--sm);
+}

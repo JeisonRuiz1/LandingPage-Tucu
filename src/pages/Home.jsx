@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 import eligenIMG from '../icons/eligenIMG.png';
 import repartidorIMG from '../icons/repartidorIMG.png';
 import tarifasIMG from '../icons/tarifasIMG.png';
-import Contact from "../components/Contact";
+import Contact from "../containers/Contact";
 
 const Home = () => {
     return (
