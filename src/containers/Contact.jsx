@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Contact.scss';
+import ButtonCompt from '../components/ButtonComp';
 
 const Contact = () => {
     return (
@@ -15,37 +16,31 @@ const Contact = () => {
                             Buscamos repartidores, desarrolladores y talento humano para nuestra expanción. </p>
                     </div>
                     <div className='contact-content_form'>
-                        <h2>Postularse ahora</h2>
+                        <h2>Postulate ahora</h2>
                         <form>
                             <div className="form-group">
-                                <label for="nameUser">Nombre</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <label for="nameUser">Nombre/Empresa</label>
+                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu nombre" />
                             </div>
 
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Correo electronico</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com" />
                             </div>
 
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Numero de telefono</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="(+57) 3112565899" />
                             </div>
 
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Motivo de interes</label>
-                                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                                <input type="email" className="form-control" id="input-text" aria-describedby="emailHelp" placeholder="Tucu puede ayudar a mejorar mi empresa" />
                             </div>
-
-                            <div className="form-check">
-                                <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                <label className="form-check-label" for="exampleCheck1">Check me out</label>
+                            <div className='form-buton'>
+                                <ButtonCompt className="submit-buton" textButton={"Enviar"}/>
                             </div>
-                            <button type="submit" className="btn btn-primary">Submit</button>
+                            
                         </form>
                     </div>
                 </div>

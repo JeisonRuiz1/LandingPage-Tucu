@@ -10,8 +10,9 @@
 
 .contact-component{
     width: 80%;
-    border: 0.5rem solid white;
+    border: 0.5rem solid var(--yellow-component);
     border-radius: 4rem;
+    padding: 2rem 3rem;
     margin-bottom: 4rem;
 }
 
@@ -31,12 +32,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80rem;
+    width: 70rem;
 }
 
 .contact-content_info h2{
     color: var(--gray-tittle);
     font-size: var(--md);
+    width: 60rem;
     padding-top: 3rem;
     text-align: center;
 }
@@ -56,7 +58,8 @@
 .contact-content_form h2{
     color: var(--gray-tittle);
     font-size: var(--md);
-    text-align: center;    
+    text-align: center;  
+    padding-bottom: 2rem;  
 }
 
 
@@ -68,4 +71,30 @@
 .form-group label{
     color: var(--gray-text);
     font-size: var(--sm);
+    padding-bottom: 0.5rem;
+}
+
+.form-group input{
+    color: var(--gray-text);
+    font-size: 2.2rem;
+    padding-left: 2rem;
+    border: 3px solid #ccc;
+    width: 45rem;
+    border-radius: 1rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.form-buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control-text{
+    height: 10rem;
+}
+
+#input-text{
+    height: 10rem;
 }
