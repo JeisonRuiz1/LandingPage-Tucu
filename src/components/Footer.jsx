@@ -19,7 +19,7 @@ const Footer = () => {
                 <img className='footer-icons__image' src={youtubeIcon} alt="Youtube" />
             </div>
             <div className='footer-text'>
-                <p>www.tucu.co</p>
+                <p>www.tucu.com</p>
                 <p>copyright 2022</p>
             </div>
         </div>

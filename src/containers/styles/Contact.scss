@@ -1,32 +1,38 @@
 @import '/src/styles/vars';
 
 
-.contact{
-    display: flex;
+.contact {
+    display: block;
     align-items: center;
     justify-content: center;
+    position: relative;
     flex-direction: column;
     border-radius: 2rem;
-    width: 90%;
+    width: 80%;
+    margin: 0 10rem;
     margin-bottom: 5rem;
     background-color: var(--yellow-component);
 }
 
-.contact-component{
-    width: 100%;
-    padding: 2rem 3rem;
+.contact-component {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
     margin-bottom: 4rem;
 }
 
-.contact-content{
+.contact-content {
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
 }
 
-.contact-tittle h1{
+.contact-tittle h1 {
     text-align: center;
     font-size: var(--lg);
-    color: var(--gray-tittle);
+    color: var(--white);
 }
 
 .contact-content_info {
@@ -37,46 +43,46 @@
     width: 70rem;
 }
 
-.contact-content_info h2{
-    color: var(--gray-tittle);
+.contact-content_info h2 {
+    color: var(--white);
     font-size: var(--md);
     width: 60rem;
     padding-top: 3rem;
     text-align: center;
 }
 
-.contact-content_info p{
-    color: var(--gray-text);
+.contact-content_info p {
+    color: var(--white);
     padding-top: 3rem;
-    text-align: justify;
+    text-align: center;
     width: 60rem;
     font-size: var(--sm);
 }
 
-.contact-content_form{
+.contact-content_form {
     padding-top: 3rem;
 }
 
-.contact-content_form h2{
-    color: var(--gray-tittle);
+.contact-content_form h2 {
+    color: var(--white);
     font-size: var(--md);
-    text-align: center;  
-    padding-bottom: 2rem;  
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
 }
 
-.form-group label{
-    color: var(--gray-text);
+.form-group label {
+    color: var(--white);
     font-size: var(--sm);
     padding-bottom: 0.5rem;
 }
 
-.form-group input{
+.form-group input {
     color: var(--gray-text);
     font-size: 2.2rem;
     padding-left: 2rem;
@@ -87,16 +93,16 @@
     margin-bottom: 2rem;
 }
 
-.form-buton{
+.form-buton {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.form-control-text{
+.form-control-text {
     height: 10rem;
 }
 
-#input-text{
+#input-text {
     height: 10rem;
 }
