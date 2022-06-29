@@ -5,6 +5,7 @@
     justify-content: space-between;
     flex-direction: column;
     padding: 15rem 0rem;
+    width: 100%;
 }
 
 .information-content {
@@ -29,9 +30,9 @@
 .information-image {
     border-radius: 2.5rem;
     padding-top: 3rem;
+    padding-left: 5rem;
     height: 40rem;
     width: 40rem;
-    margin-left: 1rem;
 }
 
 
@@ -39,11 +40,9 @@
     display: flex;
     align-items: center;
     padding-top: 5rem;
-    padding-right: 1rem;
     justify-content: center;
     flex-direction: column;
-
-    width: 35%;
+    width: 45%;
 }
 
 
